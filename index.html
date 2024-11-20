@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Farm Management System</h1>
+        
+        <!-- Booking Section -->
+        <h2>Book a Visit</h2>
+        <form action="book_visit.php" method="POST">
+            <input type="text" name="visitor_name" placeholder="Your Name" required>
+            <input type="email" name="visitor_email" placeholder="Your Email" required>
+            <input type="date" name="visit_date" required>
+            <button type="submit">Book Visit</button>
+        </form>
+
+        <!-- Feedback Section -->
+        <h2>Leave Your Feedback</h2>
+        <form action="submit_feedback.php" method="POST">
+            <input type="text" name="visitor_name" placeholder="Your Name" required>
+            <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <a href="login.html">Admin Login</a>
+    </div>
+</body>
+</html>
