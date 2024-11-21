@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm Management</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Farm Management System</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Farm Management System</h1>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome-container">
         <h1>Welcome to the Farm Management System</h1>
-        
-        <!-- Booking Section -->
-        <h2>Book a Visit</h2>
-        <form action="book_visit.php" method="POST">
-            <input type="text" name="visitor_name" placeholder="Your Name" required>
-            <input type="email" name="visitor_email" placeholder="Your Email" required>
-            <input type="date" name="visit_date" required>
-            <button type="submit">Book Visit</button>
-        </form>
+        <p>
+            Our platform is designed to make your farm operations simpler and more efficient. Whether you want to book a visit, share feedback, we’ve got you covered!
+        </p>
+    </div>
 
-        <!-- Feedback Section -->
-        <h2>Leave Your Feedback</h2>
-        <form action="submit_feedback.php" method="POST">
-            <input type="text" name="visitor_name" placeholder="Your Name" required>
-            <textarea name="feedback" placeholder="Your Feedback" required></textarea>
-            <button type="submit">Submit Feedback</button>
-        </form>
+    <!-- About Us Section -->
+    <div class="about-us-container">
+        <h2>About Us</h2>
+        <p>
+            We are passionate about empowering farmers and visitors by providing tools to streamline operations, improve productivity, and foster meaningful connections. Our mission is to bridge the gap between technology and agriculture.
+        </p>
+    </div>
 
-        <a href="login.html">Admin Login</a>
+    <!-- Call-to-Action Buttons -->
+    <div class="buttons">
+        <a href="./register.php">Register</a>
+        <a href="./login.php">Login</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>© 2024 Farm Management System. All rights reserved.</p>
     </div>
 </body>
 </html>

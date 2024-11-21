@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Welcome Section */
+.welcome-container {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* About Us Section */
+.about-us-container {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-us-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #28a745;
+}
+
+.about-us-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Call-to-Action Buttons */
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.buttons a:hover {
+    background-color: #218838;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
